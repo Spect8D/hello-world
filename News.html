@@ -1,0 +1,30 @@
+<!doctype html>
+<html>
+<head>
+<link rel="stylesheet" href="mainstyle.css">
+<title>Hacker Magazine</title>
+</head>
+<body>
+    <h1>News</h1>
+    <div class="menu">
+      <a href="Main.html">Home</a>
+      <a id="news"href="News.html">News</a>
+      <a href="Book.html">추천 도서</a>
+      <a href="Track.html">Track</a>
+    </div>
+
+    <div id="map" style="width:400px;height:400px;"></div>
+  <script>
+    var map;
+    function initMap() {
+      map = new google.maps.Map(document.getElementById('map'), {
+        center: {lat: -34.397, lng: 150.644},
+        zoom: 5,
+        mapTypeId:google.maps.MapTypeId.ROADMAP
+      });
+    }
+  </script>
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD-mZpsRL_MP0lTHNqTrGINLC_oPhS7LJ8&callback=initMap"
+  async defer></script>
+</body>
+</html>

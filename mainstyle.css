@@ -1,0 +1,17 @@
+body{background-color:#000000;}
+.menu a{
+background:grey;
+color: white;
+font-size:30px;
+float: left;/*메뉴 바 만들기*/
+padding: 20px;/*메뉴 박스 크기*/
+width:20%;/*화면 비율*/
+text-align:center;/*자간 맞춤*/
+text-decoration: none;/*밑줄 제거*/
+}
+.menu a:hover{
+  background:purple;
+  font-size: 250%;
+}
+
+h1{text-align:center;color:yellow;}
