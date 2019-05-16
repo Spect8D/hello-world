@@ -1,0 +1,60 @@
+body{background-color:#000000;}
+.menu {
+  text-align: center;
+  width: 100%;
+}
+.menu a{
+background:grey;
+color: white;
+font-size:30px;
+
+padding: 20px 80px;/*메뉴 박스 크기*/
+width:500px;/*화면 비율*/
+text-align:center;/*자간 맞춤*/
+text-decoration: none;/*밑줄 제거*/
+}
+.menu a:hover{
+  background:purple;
+  font-size: 250%;
+}
+.maintext {
+  text-align: center;
+  color: white;
+  font-size: 50px;
+}
+.booktext{
+  color: white;
+  font-size: 30px;
+}
+.booktext a{
+  color: yellow;
+  font-size: 25px;
+}
+.booktext a:hover{
+  font-size: 30px;
+  font-style: oblique;
+}
+.lecturetext{
+  color: lightgreen;
+  font-size: 30px;
+}
+.lecturetext a{
+  color: green;
+  font-size: 25px;
+}
+.lecturetext a:hover{
+  font-style: italic;
+  color: darkgreen;
+  font-size: 30px;
+}
+.bulb{
+  cursor: pointer;
+  background-color: black;/* backgroung trick*/
+  border: 0; /*clear Box borer*/
+  outline: 0; /*Clear Box outline*/
+  position: relative;
+  top: 10%;
+  left:50%;
+}
+
+h1{text-align:center;color:yellow;}
