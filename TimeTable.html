@@ -7,22 +7,21 @@
 </head>
 <body>
     <h1>TimeTable</h1>
-    <p class="menu">
+    <div class="menu">
       <a href="Main.html">Home</a>
       <a href="TimeTable.html">시간표</a>
       <a href="Book.html">추천 도서</a>
       <a href="Lecture.html">Lecture</a>
-    </p>
-    <table>
-      <tr>
+    <table align="center">
+      <tr><!-- 1.column -->
         <th>교시</th>
         <th>월요일</th>
         <th>화요일</th>
         <th>수요일</th>
-        <th>목요일</th>
+        <th width="100px">목요일</th>
         <th>금요일</th>
       </tr>
-      <tr>
+      <tr><!-- 2.column -->
         <td>1교시 09:00 - 09:50</td>
         <td></td>
         <td></td>
@@ -30,7 +29,7 @@
         <td></td>
         <td></td>
       </tr>
-      <tr>
+      <tr><!-- 3.column -->
         <td>2교시 10:00 - 10:50</td>
         <td rowspan="3">HTML5 5407 <br>김상길</td>
         <td></td>
@@ -38,40 +37,46 @@
         <td></td>
         <td></td>
       </tr>
-      <tr>
+      <tr><!-- 4.column -->
         <td>3교시 11:00 - 11:50</td>
         <td></td>
         <td rowspan="2">비즈니스모델과 <BR> 전산학5422<br>김혜숙</td>
         <td></td>
-        <td rowspan="2">IT기술능력 5408 라성관</td>
+        <td rowspan="2">IT기술능력 <br>5408 라성관</td>
       </tr>
-      <tr>
+      <tr><!-- 5.column -->
         <td>4교시 12:00 - 12:50</td>
         <td></td>
         <td></td>
       </tr>
-      <tr>
+      <tr><!-- 6.column -->
         <td>5교시 13:00 - 13:50</td>
         <td></td>
-        <td rowspan="3">C언어 5407 김진수</td>
-        <td rowspan="3">프로그래밍논리 5421 김대헌</td>
-        <td rowspan="3">멀티미디어 실습 5406 김혜숙</td>
+        <td></td>
+        <td></td>
+        <td></td>
         <td></td>
       </tr>
-      <tr>
+      <tr><!-- 7.column -->
         <td>6교시 14:00 - 14:50</td>
         <td></td>
+        <td rowspan="3">C언어 5407 <br>김진수</td>
+        <td rowspan="3">프로그래밍논리 <br>5421 김대헌</td>
         <td></td>
-      
+        <td rowspan="3">멀티미디어 실습 <br>5406 김혜숙</td>
       </tr>
-      <tr>
+      <tr><!-- 8.column -->
         <td>7교시 15:00 - 15:50</td>
         <td></td>
         <td></td>
-
       </tr>
-      <tr>
+      <tr><!-- 9.column -->
         <td>8교시 16:00 - 16:50</td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr><!-- 9.column -->
+        <td>9교시 17:00 - 17:50</td>
         <td></td>
         <td></td>
         <td></td>
@@ -79,5 +84,6 @@
         <td></td>
       </tr>
     </table>
+    </div>
 </body>
 </html>

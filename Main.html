@@ -12,18 +12,28 @@
       <a href="TimeTable.html">시간표</a>
       <a href="Book.html">추천 도서</a>
       <a href="Lecture.html">Lecture</a>
-    </div>
-
     <pre class="maintext">
-      내가 만드는 이것저것 웹사이트.
+      <div style="color:white;">내가 만드는 이것저것 웹사이트.</div>
+      1.Home
+      2.시간표
+      3.추천도서
+      4.유용한 강좌 목록
     </pre>
+    </div>
     <button class="bulb" type="button"
     onclick="
   if(this.value == 'off'){
     document.getElementById('bulbImage').src='img/pic_bulbon.gif';
-    this.value = 'on';} else {
+    document.querySelector('body').style.backgroundColor ='black';
+    document.querySelector('body').style.color ='white';
+    this.value = 'on';
+  } else {
     document.getElementById('bulbImage').src='img/pic_bulboff.gif';
-    this.value = 'off';}">
+    this.value = 'off';
+    document.querySelector('body').style.backgroundColor ='white';
+    document.querySelector('body').style.color ='black'
+
+  }">
     <img id="bulbImage"src="img/pic_bulboff.gif">
     </button>
 </body>
